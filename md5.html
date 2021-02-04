@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Encoder/Decoder</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src='./md5.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h2 class="heading">MD5 Hashing</h2>
+        <div class="navbar">
+            <a href="./index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">URL Encoder/Decoder
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./url-encoder-decoder.html">URL Encoder</a> 
+                    <a href="./urlDecoder.html">URL Decoder</a> 
+                  </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Base64 Encoder/Decoder
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./base64-encode.html">Base64 Encoder</a> 
+                <a href="./base64-decode.html">Base64 Decoder</a> 
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Crypto Hashing
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./md5.html">MD5 Hash Generator</a> 
+                <a href="./sha1.html">SHA-1 Hash Generator</a> 
+                <a href="./sha256.html">SHA-256 Hash Generator</a> 
+                <a href="./sha512.html">SHA-512 Hash Generator</a> 
+
+              </div>
+            </div>
+          </div>
+        
+
+    </header>
+ 
+    <section class="logic">
+<input type="text" id="md5-input" class="abc" placeholder="Enter the input here">
+<input type="button" id="md5-button" value="Convert" class="abc2">
+<!-- <input type="button" id="decode-64" value="Decode-64" >  -->
+
+
+    <input type="text" id="md5-output" class="op" placeholder="See the output here">
+</section>
+    <footer class="footer">
+        <!-- <div class="footer-div-1"> -->
+        <h6 class="footer-para">Utility Tools: Encoders and Decoders.</h6>
+       
+      </footer>
+
+    
+</body>
+</html>
