@@ -15,11 +15,51 @@ body {
   color: #aa1d2f;
   padding: 12px 20px;
   margin: 60px 16px 80px 50px;
-  width: 650px;
-  height: 350px;
+  width: 550px;
+  height: 250px;
   border-color: white;
   box-sizing: border-box;
   font-size: 16px;
+}
+
+.abc2 {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.abc2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.abc2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.abc2:hover span {
+  padding-right: 25px;
+}
+
+.abc2:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .header {
@@ -36,6 +76,7 @@ body {
 
 .logic {
   background-color: rgb(20, 192, 141);
+  min-height: 500px;
 }
 
 .footer-para {
@@ -69,14 +110,14 @@ body {
   color: #aa1d2f;
   padding: 12px 20px;
   margin: 60px 16px 80px 20px;
-  width: 650px;
-  height: 350px;
+  width: 550px;
+  height: 250px;
   border-color: white;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-.button {
+.abc2 {
   /* it starts here       */
   background-color: #aa1d2f;
   color: wheat;
