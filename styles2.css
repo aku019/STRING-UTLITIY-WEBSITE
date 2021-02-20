@@ -35,7 +35,7 @@ body {
   
   .abc {
     background-color: white;
-    color: #e76f51;
+    color: purple;
     padding: 12px 20px;
     /* margin: auto;  */
     margin: 20px auto;  
@@ -81,8 +81,10 @@ body {
      align-items: center;
     background-color: #264653;
     width: 350px;
-    height:250px;
+    height:225px;
+    border-radius: 5px;
     margin: 20px auto;  
+    
     
   }
   
